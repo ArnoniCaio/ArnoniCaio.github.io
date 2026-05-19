@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Seu Nome — Portfólio</title>
+<title>Caio Arnoni — Portfólio</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230a0a0f'/><text font-size='42' font-family='sans-serif' font-weight='800' fill='%23c8f047' x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle'>CA</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
@@ -242,14 +243,15 @@
     border-radius: 16px;
     background: var(--bg3);
     border: 1px solid var(--border);
-    display: flex; align-items: center; justify-content: center;
-    font-family: 'Syne', sans-serif;
-    font-size: 5rem;
-    font-weight: 800;
-    color: var(--accent);
-    letter-spacing: -0.05em;
     overflow: hidden;
     position: relative;
+  }
+  .about-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
   }
   .about-avatar::after {
     content: '';
@@ -501,7 +503,7 @@
     </div>
     <div class="hero-stats">
       <div>
-        <div class="stat-num">6<span>+</span></div>
+        <div class="stat-num">10<span>+</span></div>
         <div class="stat-label">Projetos entregues</div>
       </div>
       <div>
@@ -524,15 +526,15 @@
   <h2 class="section-title">Quem sou <span class="dim">eu</span></h2>
   <div class="about-grid reveal">
     <div class="about-img-wrap">
-      <div class="about-avatar">CA</div>
+      <div class="about-avatar"><img src="caio%20analise%20de%20dados%20python%20sql%20visualizacao%20de%20dados.jpg" alt="Caio Arnoni"></div>
       <div class="about-badge">Open to work ✦</div>
     </div>
     <div class="about-text">
-      <p>Sou <strong>Caio</strong>, 21 anos, estudante de Ciência da Computação e apaixonado por tecnologia. Moro em Santo André, SP. Toco bateria desde pequeno e vivo aprendendo novos instrumentos — mesma energia que coloco no código.</p>
+      <p>Sou <strong>Caio</strong>, 21 anos, estudante de Ciência da Computação e apaixonado por tecnologia. Moro em Santo André, SP. Toco bateria desde pequeno e vivo aprendendo novos instrumentos, mesma energia que coloco no código.</p>
       <p>Profissionalmente, sou <strong>Analista de Dados</strong> com experiência em análise, visualização e geração de insights para suporte à tomada de decisão. Já implementei um modelo de Machine Learning com PyTorch que aumentou em <strong>40% a eficiência das análises</strong> e criei KPIs que melhoraram em 20% o monitoramento de dados em projetos de IA.</p>
-      <p>Atuo com Python, SQL, Power BI, Grafana, AWS e Azure, além de desenvolver soluções full stack com React, Node.js e TypeScript. Gosto de filmes, livros e esportes — e de resolver problemas que importam.</p>
+      <p>Atuo com Python, SQL, Power BI, ETL , AWS e Azure, além de desenvolver soluções full stack com React, Node.js e TypeScript. Gosto de filmes, livros, esportes e de resolver problemas que importam.</p>
       <div class="hero-actions" style="margin-top: 1.5rem;">
-        <a href="curriculo.pdf" class="btn-primary" download>Baixar CV →</a>
+        <a href="cv-data-caio-arnoni-2026.pdf" class="btn-primary" download>Baixar CV →</a>
       </div>
     </div>
   </div>
@@ -572,7 +574,8 @@
       <div class="skill-name">IA & Automação</div>
       <p style="font-size:0.85rem; color: var(--muted); margin-top:0.4rem;">Machine Learning, visão computacional e agentes inteligentes.</p>
       <div class="skill-tags">
-        <span class="tag">PyTorch</span>
+        <span class="tag">OpenCV</span>
+        <span class="tag">Scikit-learn</span>
         <span class="tag">Visão Computacional</span>
         <span class="tag">Agentes IA</span>
       </div>
